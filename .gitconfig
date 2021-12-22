@@ -1,13 +1,13 @@
 [user]
-	name 	= Daan Kauwenberg
-	email = daan@caude.nl
+  name 	= Daan Kauwenberg
+  email = daan@caude.nl
 
 [filter "lfs"]
-	smudge 		= git-lfs smudge -- %f
-	process 	= git-lfs filter-process
-	required 	= true
-	clean 		= git-lfs clean -- %f
+  smudge 		= git-lfs smudge -- %f
+  process 	= git-lfs filter-process
+  required 	= true
+  clean 		= git-lfs clean -- %f
 
 [alias]
   #  === Working with tags ===
-	ltag = describe --tags --abbrev=0			# Show last tag in current branch
+  ltag = describe --tags --abbrev=0			# Show last tag in current branch
