@@ -1,6 +1,6 @@
 [user]
   name 	= Daan Kauwenberg
-  email = daan@caude.nl
+  email = 9211670+daankauwenberg@users.noreply.github.com
 
 [filter "lfs"]
   smudge 		= git-lfs smudge -- %f
