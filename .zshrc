@@ -3,6 +3,7 @@
 # 2. Path alterations
 # 3. Aliases
 # 4. NVM
+# 5. AWS
 # -------------------
 
 # 1. PROMPT
@@ -67,3 +68,10 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+# 5. AWS
+# ======
+
+export PATH="$HOME/.amplify/bin:$PATH"
+export AWS_PROFILE=default
+export AWS_REGION=eu-central-1
